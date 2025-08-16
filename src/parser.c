@@ -1,4 +1,4 @@
-#include "../headers/ft_lib.h"
+#include "../include/ft_lib.h"
 
 size_t	count_file_bytes(const char *file_path)
 {
@@ -56,7 +56,6 @@ char	*parse_dictionary(const char *file_path)
 	symbols = read_and_fill(file_path, symbols, byte_count);
 	if (!symbols)
 	{
-		write(1, "Dict error\n", 11);
 		return (NULL);
 	}
 	return ((char *)symbols);

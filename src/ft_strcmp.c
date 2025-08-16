@@ -1,4 +1,4 @@
-#include "../headers/ft_lib.h"
+#include "../include/ft_lib.h"
 
 int	ft_strcmp(char *s1, char *s2)
 {

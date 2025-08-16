@@ -1,4 +1,4 @@
-#include "../headers/ft_lib.h"
+#include "../include/ft_lib.h"
 
 char	*ft_strncpy(char *dest, const char *src, unsigned int n)
 {

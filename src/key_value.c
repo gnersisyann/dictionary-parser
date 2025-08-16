@@ -1,4 +1,4 @@
-#include "../headers/ft_lib.h"
+#include "../include/ft_lib.h"
 #define MAX_ENTRIES 41
 
 #define MAX_KEY_LENGTH 50

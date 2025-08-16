@@ -1,4 +1,4 @@
-#include "../headers/ft_lib.h"
+#include "../include/ft_lib.h"
 
 void	print_one_digit(struct s_keyval *dict, char digit)
 {
